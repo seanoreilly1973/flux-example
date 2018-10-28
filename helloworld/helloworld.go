@@ -12,7 +12,7 @@ var rev = "devel"
 func main() {
 	var (
 		addr = flag.String("addr", ":80", "HTTP listen address")
-		msg  = flag.String("msg", "Hello, Lucy", "Message to print")
+		msg  = flag.String("msg", "Hello, Lucy. How are you?", "Message to print")
 	)
 	flag.Parse()
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
