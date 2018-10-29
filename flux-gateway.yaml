@@ -24,5 +24,5 @@ spec:
   - flux-gateway
   http:
   - route:
-    -destination:
+    - destination:
         host: helloworld
