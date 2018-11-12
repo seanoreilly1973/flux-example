@@ -14,7 +14,7 @@ spec:
       - name: helloworld
         image: quay.io/weaveworks/helloworld:master-a000001
         args:
-        - -msg=New version of Flux example application
+        - -msg=Flux config for MYA
         ports:
         - containerPort: 80
       - name: sidecar
